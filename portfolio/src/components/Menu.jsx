@@ -1,12 +1,11 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav';
+import Container from 'react-bootstrap/Container';
+import Navigation from './Navigation'
 
 const Menu = () => (
-	<Nav defaultActiveKey="/home" className="flex-column">
-	  	<Nav.Link href="/home">Home</Nav.Link>
-	  	<Nav.Link eventKey="link-1">About Me</Nav.Link>
-	  	<Nav.Link eventKey="link-2">Portfolio</Nav.Link>
-	</Nav>
+	<Container fluid>
+		<Navigation />
+  	</Container>
 );
 
 export default Menu;
