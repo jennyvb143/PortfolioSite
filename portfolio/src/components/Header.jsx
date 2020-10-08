@@ -6,13 +6,13 @@ import logo from './images/jenniferbaxter-jvbaxter.com-logo.png';
 import Navigation from './Navigation'
 import { LogoWrapper } from './style'
 
-const Header = (props) => {
+const Header = () => {
     return (
-        <Container className='mt-5'>
+        <Container>
             <Row>
-                <Col>
+                <Col className='pl-5'>
                     <LogoWrapper>
-                        <img src={logo} alt="Logo" />
+                        <img src={logo} alt='jvBaxter.com Logo' />
                     </LogoWrapper>
                     <Navigation />
                 </Col>

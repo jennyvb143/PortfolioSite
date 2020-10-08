@@ -1,33 +1,41 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Header from './Header'
 import Home from './Home'
-import AboutMe from './AboutMe'
-import Portfolio from './Portfolio'
-import { HeaderWrapper } from './style'
+import About from './About'
+import Projects from './Projects'
+import Contact from './Contact'
+import Footer from './Footer'
+import { AppGlobalStyles, HeaderWrapper, StyledContainer, StyledFooterRow, StyledMainRow } from './style'
 
 const App = () => {
 	return (
 		<Router>
-			<Container className='ml-0'>
-				<Row>
-					<HeaderWrapper>
-					<Col xs={12} lg={6}>
-						<Header />
-					</Col>
-					</HeaderWrapper>
-					<Col xs={12} lg={6}>
-						<Switch>
-							<Route exact path="/" component={Home} />
-							<Route exact path="/about-me" component={AboutMe} />
-							<Route exact path="/portfolio" component={Portfolio} />
-						</Switch>
-					</Col>
-				</Row>
-			</Container>	
+			<AppGlobalStyles>
+				<StyledContainer fluid>
+					<StyledMainRow>
+						<Col xs={12} md={4} className='pl-0 pr-0'>
+							<HeaderWrapper>
+								<Header />
+							</HeaderWrapper>
+						</Col>
+						<Col xs={12} md={8} className='p-5 d-flex flex-column align-self-center'>
+							<Switch>
+								<Route exact path='/' component={Home} />
+								<Route exact path='/about' component={About} />
+								<Route exact path='/projects' component={Projects} />
+								<Route exact path='/contact' component={Contact} />
+							</Switch>
+						</Col>
+					</StyledMainRow>
+					<StyledFooterRow>
+						<Col xs={12} md={12}>
+							<Footer />
+						</Col>
+					</StyledFooterRow>
+				</StyledContainer>
+			</AppGlobalStyles>
 		</Router>
 	)
 };
