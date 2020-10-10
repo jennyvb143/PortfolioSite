@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.js": "/static/js/main.fd5ea270.chunk.js",
-    "main.js.map": "/static/js/main.fd5ea270.chunk.js.map",
+    "main.js": "/static/js/main.a56bb94c.chunk.js",
+    "main.js.map": "/static/js/main.a56bb94c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.e893d145.chunk.js": "/static/js/2.e893d145.chunk.js",
-    "static/js/2.e893d145.chunk.js.map": "/static/js/2.e893d145.chunk.js.map",
+    "static/js/2.877d649f.chunk.js": "/static/js/2.877d649f.chunk.js",
+    "static/js/2.877d649f.chunk.js.map": "/static/js/2.877d649f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0026b4205ad841d805098f0fa82233ac.js": "/precache-manifest.0026b4205ad841d805098f0fa82233ac.js",
+    "precache-manifest.bb85339a4cc44815ba5c5c8586e5107e.js": "/precache-manifest.bb85339a4cc44815ba5c5c8586e5107e.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.e893d145.chunk.js.LICENSE.txt": "/static/js/2.e893d145.chunk.js.LICENSE.txt",
+    "static/js/2.877d649f.chunk.js.LICENSE.txt": "/static/js/2.877d649f.chunk.js.LICENSE.txt",
+    "static/media/els-main.png": "/static/media/els-main.c1e126dd.png",
+    "static/media/jennifer-baxter-avatar.png": "/static/media/jennifer-baxter-avatar.adead9e1.png",
     "static/media/jenniferbaxter-jvbaxter.com-logo.png": "/static/media/jenniferbaxter-jvbaxter.com-logo.511c6db4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.e893d145.chunk.js",
-    "static/js/main.fd5ea270.chunk.js"
+    "static/js/2.877d649f.chunk.js",
+    "static/js/main.a56bb94c.chunk.js"
   ]
 }
