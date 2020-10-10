@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -12,7 +13,9 @@ const Header = () => {
             <Row>
                 <Col className='pl-5'>
                     <LogoWrapper>
-                        <img src={logo} alt='jvBaxter.com Logo' />
+                        <Link to='/'>
+                            <img src={logo} alt='jvBaxter.com Logo' />
+                        </Link>
                     </LogoWrapper>
                     <Navigation />
                 </Col>

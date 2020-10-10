@@ -1,5 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import ElsHome from './images/projects/els-main.png';
 
 const Projects = () => {
     return (
@@ -8,18 +9,19 @@ const Projects = () => {
             <Carousel>
                 <Carousel.Item>
                     <img
-                    className='w-50'
-                    src='https://picsum.photos/800'
-                    alt='First slide'
+                    className='d-block w-100'
+                    src={ElsHome}
+                    alt='Redesign and relaunch of els.edu'
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>Redesign and relaunch of els.edu</h3> 
+                        <p>Achieved annual lead targets by increasing student applications and enrollments after site relaunch.</p>
+                        <p>Visit els.edu</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                    className='w-50'
+                    className='d-block w-100'
                     src='https://picsum.photos/800'
                     alt='Third slide'
                     />

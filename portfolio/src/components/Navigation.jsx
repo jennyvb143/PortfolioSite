@@ -1,12 +1,12 @@
 import React from 'react';
-import { NavigationWrapper, StyledLink } from './style'
+import { NavigationWrapper, StyledNavigationLink } from './style'
 
 const Navigation = () => (
 	<NavigationWrapper className='mt-5'>
-		<StyledLink to='/'>Home</StyledLink>
-		<StyledLink to='/about'>About</StyledLink>
-		<StyledLink to='/projects'>Projects</StyledLink>
-		<StyledLink to='/contact'>Contact</StyledLink>
+		<StyledNavigationLink to='/'>Home</StyledNavigationLink>
+		<StyledNavigationLink to='/about'>About</StyledNavigationLink>
+		<StyledNavigationLink to='/projects'>Projects</StyledNavigationLink>
+		<StyledNavigationLink to='/contact'>Contact</StyledNavigationLink>
 	</NavigationWrapper>
 );
 

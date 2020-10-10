@@ -30,7 +30,7 @@ const App = () => {
 						</Col>
 					</StyledMainRow>
 					<StyledFooterRow>
-						<Col xs={12} md={12}>
+						<Col xs={12} md={12} className='d-flex flex-column align-items-center'>
 							<Footer />
 						</Col>
 					</StyledFooterRow>

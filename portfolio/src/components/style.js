@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import Container from 'react-bootstrap/Container';
+import Figure from 'react-bootstrap/Figure'
+import Image from 'react-bootstrap/Image'
 import Row from 'react-bootstrap/Row';
 
 export const AppGlobalStyles = styled.div`
@@ -10,17 +12,52 @@ export const AppGlobalStyles = styled.div`
     font-family: 'Poppins', sans-serif;
     font-weight:100;
     font-size: 2em;
+    padding-bottom: .5em;
+  }
+  & h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+  }
+  & h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
   }
   & p {
     font-family: 'Poppins', sans-serif;
-    font-weight:400;
-    padding-top: 1em;
-    padding-bottom: 2em;
   }
-`
-
-export const ContentWrapper = styled.div`
-  
+  & p.bold {
+    font-weight:600;
+  }
+  & p.medium {
+    font-weight:300;
+  }
+  & p.light {
+    font-weight:100;
+  }
+  & div.spacer-extra-small {
+    height: .5em;
+  }
+  & div.spacer-small {
+    height: 1em;
+  }
+  & div.spacer-medium {
+    height: 2em;
+  }
+  & div.spacer-large {
+    height: 3em;
+  }
+  & a {
+    color: #000;
+  }
+  & a:link, a:visited, a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+  }
+  & .faIcon {
+    margin-right: .5em;
+  }
 `
 
 export const StyledContainer = styled(Container)`
@@ -28,14 +65,6 @@ export const StyledContainer = styled(Container)`
   display: flex;
   flex-direction: column;
   align-items: stretch;
-`
-
-export const StyledFooterRow = styled(Row)`
-  background-color: #f48b88;
-`
-
-export const StyledMainRow = styled(Row)`
-  flex-grow: 1;
 `
 
 export const HeaderWrapper = styled.div`
@@ -56,7 +85,27 @@ export const NavigationWrapper = styled.div`
   flex-direction: column;
 `
 
-export const StyledLink = styled(Link)`
+export const StyledAvatarImage = styled(Image)`
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+`
+
+export const StyledFigure = styled(Figure)`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
+export const StyledFooterRow = styled(Row)`
+  background-color: #f48b88;
+`
+
+export const StyledMainRow = styled(Row)`
+  flex-grow: 1;
+`
+
+export const StyledNavigationLink = styled(Link)`
   margin-bottom: .5em;
   font-family: 'Lemon/Milk';
   font-size: 1.5em;
