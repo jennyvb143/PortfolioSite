@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <Container>
       <Row>
-        <Col className="pl-5">
+        <Col className="pl-4">
           <LogoWrapper>
             <Link to="/">
               <img src={logo} alt="jvBaxter.com Logo" />

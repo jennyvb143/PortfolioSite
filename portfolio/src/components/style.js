@@ -61,6 +61,8 @@ export const AppGlobalStyles = styled.div`
   & .faIcon {
     margin-right: 0.5em;
   }
+  & .card-image {
+  }
 `;
 
 export const StyledContainer = styled(Container)`
@@ -76,7 +78,8 @@ export const HeaderWrapper = styled.div`
 `;
 
 export const LogoWrapper = styled.div`
-  max-width: 80%;
+  max-width: 75%;
+  margin: 0 auto;
   padding-top: 3em;
   & img {
     width: 100%;
@@ -84,8 +87,10 @@ export const LogoWrapper = styled.div`
 `;
 
 export const NavigationWrapper = styled.div`
+  max-width: 75%;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
 `;
 
 export const StyledAvatarImage = styled(Image)`
@@ -95,9 +100,14 @@ export const StyledAvatarImage = styled(Image)`
 `;
 
 export const StyledFigure = styled(Figure)`
-  display: flex;
+  width: 16%;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
+
+  @media (max-width: 1200px) {
+    width: 50%;
+  }
 `;
 
 export const StyledFooterRow = styled(Row)`

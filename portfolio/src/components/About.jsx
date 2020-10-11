@@ -36,53 +36,81 @@ const About = () => {
         me!
       </p>
       <div className="spacer-medium" />
-      <h2>Primary Languages & Technologies</h2>
+      <h2>Primary Languages & Frameworks</h2>
       <div className="spacer-small" />
-      <Col>
-        <Row className="justify-content-between">
-          <StyledFigure>
-            <FontAwesomeIcon icon={faJsSquare} size="2x" />
-            <FigureCaption>
-              <p>JavaScript</p>
-            </FigureCaption>
-          </StyledFigure>
-          <StyledFigure>
-            <FontAwesomeIcon icon={faReact} size="2x" />
-            <FigureCaption>
-              <p>React/Redux</p>
-            </FigureCaption>
-          </StyledFigure>
-          <StyledFigure>
-            <FontAwesomeIcon icon={faHtml5} size="2x" />
-            <FigureCaption>
-              <p>HTML/HTML5</p>
-            </FigureCaption>
-          </StyledFigure>
-          <StyledFigure>
-            <FontAwesomeIcon icon={faCss3Alt} size="2x" />
-            <FigureCaption>
-              <p>CSS/CSS3</p>
-            </FigureCaption>
-          </StyledFigure>
-          <StyledFigure>
-            <FontAwesomeIcon icon={faSass} size="2x" />
-            <FigureCaption>
-              <p>Sass</p>
-            </FigureCaption>
-          </StyledFigure>
-          <StyledFigure>
-            <FontAwesomeIcon icon={faBootstrap} size="2x" />
-            <FigureCaption>
-              <p>Bootstrap</p>
-            </FigureCaption>
-          </StyledFigure>
-        </Row>
-      </Col>
+      <div>
+        <StyledFigure>
+          <FontAwesomeIcon icon={faJsSquare} size="2x" />
+          <FigureCaption>
+            <p>JavaScript (ES6+)</p>
+          </FigureCaption>
+        </StyledFigure>
+        <StyledFigure>
+          <FontAwesomeIcon icon={faReact} size="2x" />
+          <FigureCaption>
+            <p>React/Redux</p>
+          </FigureCaption>
+        </StyledFigure>
+        <StyledFigure>
+          <FontAwesomeIcon icon={faHtml5} size="2x" />
+          <FigureCaption>
+            <p>HTML/HTML5</p>
+          </FigureCaption>
+        </StyledFigure>
+        <StyledFigure>
+          <FontAwesomeIcon icon={faCss3Alt} size="2x" />
+          <FigureCaption>
+            <p>CSS/CSS3</p>
+          </FigureCaption>
+        </StyledFigure>
+        <StyledFigure>
+          <FontAwesomeIcon icon={faSass} size="2x" />
+          <FigureCaption>
+            <p>Sass</p>
+          </FigureCaption>
+        </StyledFigure>
+        <StyledFigure>
+          <FontAwesomeIcon icon={faBootstrap} size="2x" />
+          <FigureCaption>
+            <p>Bootstrap</p>
+          </FigureCaption>
+        </StyledFigure>
+      </div>
       <h2>Other Tools & Technologies</h2>
-      <p>list</p>
+      <Row>
+        <Col>
+          <ul>
+            <li>jQuery</li>
+            <li>Styled Components</li>
+            <li>AJAX/JSON</li>
+            <li>Git/GitHub</li>
+            <li>Command Line</li>
+            <li>GraphQL</li>
+            <li>Accessibility</li>
+            <li>Regular Expressions</li>
+            <li>PHP/mySQL</li>
+          </ul>
+        </Col>
+        <Col>
+          <ul>
+            <li>Contentstack</li>
+            <li>WordPress</li>
+            <li>Responsive Design</li>
+            <li>InVision</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>InDesign</li>
+            <li>Balsamiq</li>
+          </ul>
+        </Col>
+      </Row>
       <div className="spacer-small" />
       <h2>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+        <a
+          href="/JenniferBaxter-Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Download Resume (PDF) <FontAwesomeIcon icon={faFilePdf} size="1.5x" />
         </a>
       </h2>
