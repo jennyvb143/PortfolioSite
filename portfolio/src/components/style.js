@@ -10,14 +10,16 @@ export const AppGlobalStyles = styled.div`
 
   & h1 {
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
+    font-weight: 600;
     font-size: 2em;
     padding-bottom: 0.5em;
+    color: #f48b88;
   }
   & h2 {
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-size: 1.5em;
+    font-weight: 200;
+    font-size: 2em;
+    color: #f48b88;
   }
   & h3 {
     font-family: "Poppins", sans-serif;
@@ -48,7 +50,11 @@ export const AppGlobalStyles = styled.div`
   & div.spacer-large {
     height: 3em;
   }
+  & .p-6 {
+    padding: 4.5em;
+  }
   & a {
+    font-family: "Poppins", sans-serif;
     color: #000;
   }
   & a:link,
@@ -60,8 +66,6 @@ export const AppGlobalStyles = styled.div`
   }
   & .faIcon {
     margin-right: 0.5em;
-  }
-  & .card-image {
   }
 `;
 
@@ -120,15 +124,18 @@ export const StyledMainRow = styled(Row)`
 
 export const StyledNavigationLink = styled(Link)`
   margin-bottom: 0.5em;
-  font-family: "Lemon/Milk";
   font-size: 1.5em;
   color: #000;
   text-decoration: none;
 
-  &:link,
-  :visited,
-  :hover,
-  :active {
+  && {
+    font-family: "Lemon/Milk";
+  }
+
+  & a:link,
+  a:visited,
+  a:hover,
+  a:active {
     color: #000;
     text-decoration: none;
   }

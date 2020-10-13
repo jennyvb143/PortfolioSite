@@ -4,6 +4,8 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import Figure from "react-bootstrap/Figure";
+import FigureCaption from "react-bootstrap/FigureCaption";
 import Swal from "sweetalert2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -142,38 +144,50 @@ const Contact = () => {
       <h1>Connect with me on social media</h1>
       <Col>
         <Row>
-          <a
-            href="www.linkedin.com/in/jvbaxter"
-            className="faIcon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon size="2x" icon={faLinkedin} />
-          </a>
-          <a
-            href="https://github.com/jennyvb143"
-            className="faIcon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon size="2x" icon={faGithubSquare} />
-          </a>
-          <a
-            href="https://medium.com/@jenniferverobaxter"
-            className="faIcon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon size="2x" icon={faMedium} />
-          </a>
-          <a
-            href="https://twitter.com/jennyvb143"
-            className="faIcon"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <FontAwesomeIcon size="2x" icon={faTwitterSquare} />
-          </a>
+          <Figure className="d-inline-flex text-center pr-1">
+            <a
+              href="www.linkedin.com/in/jvbaxter"
+              className="faIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon size="2x" icon={faLinkedin} />
+              <FigureCaption>LinkedIn</FigureCaption>
+            </a>
+          </Figure>
+          <Figure className="d-inline-flex text-center pr-1">
+            <a
+              href="https://github.com/jennyvb143"
+              className="faIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon size="2x" icon={faGithubSquare} />
+              <FigureCaption>GitHub</FigureCaption>
+            </a>
+          </Figure>
+          <Figure className="d-inline-flex text-center pr-1">
+            <a
+              href="https://medium.com/@jenniferverobaxter"
+              className="faIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon size="2x" icon={faMedium} />
+              <FigureCaption>Medium</FigureCaption>
+            </a>
+          </Figure>
+          <Figure className="d-inline-flex text-center pr-1">
+            <a
+              href="https://twitter.com/jennyvb143"
+              className="faIcon"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon size="2x" icon={faTwitterSquare} />
+              <FigureCaption>Twitter</FigureCaption>
+            </a>
+          </Figure>
         </Row>
       </Col>
       <div className="spacer-medium" />

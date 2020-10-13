@@ -27,13 +27,15 @@ const About = () => {
         programming. I excel in UX/UI, web design, brand identity, and
         ecommerce, but I enjoy all facets of design and I find that I am
         constantly inspired by the design that exists all around us – the good,
-        the bad, and the ugly. I've lived all across the country and beyond and
-        I've found that when it comes to design, there is one Universal Truth:
-        No matter the Design Problem, there exists a Design Solution, and the
-        best part of being a developer and designer is discovering what it is! I
-        love being a student and continue to take courses to stay current with
-        ever-changing technology. So take a look around and get in touch with
-        me!
+        the bad, and the ugly.
+      </p>
+      <p>
+        I've lived all across the country and beyond and I've found that when it
+        comes to design, there is one Universal Truth: No matter the Design
+        Problem, there exists a Design Solution, and the best part of being a
+        developer and designer is discovering what it is! I love being a student
+        and continue to take courses to stay current with ever-changing
+        technology. So take a look around and get in touch with me!
       </p>
       <div className="spacer-medium" />
       <h2>Primary Languages & Frameworks</h2>

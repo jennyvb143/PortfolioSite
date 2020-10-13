@@ -5,6 +5,8 @@ import Header from "./Header";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
+import BedBaby from "./Projects/BedBaby";
+import Freitag from "./Projects/Freitag";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import {
@@ -21,21 +23,23 @@ const App = () => {
       <AppGlobalStyles>
         <StyledContainer fluid>
           <StyledMainRow>
-            <Col xs={12} md={4} className="pl-0 pr-0">
+            <Col xs={12} md={3} className="pl-0 pr-0">
               <HeaderWrapper>
                 <Header />
               </HeaderWrapper>
             </Col>
             <Col
               xs={12}
-              md={8}
-              className="p-5 d-flex flex-column align-self-center"
+              md={9}
+              className="p-6 d-flex flex-column align-self-center"
             >
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/contact" component={Contact} />
+                <Route exact path="/bed-baby" component={BedBaby} />
+                <Route exact path="/freitag" component={Freitag} />
               </Switch>
             </Col>
           </StyledMainRow>
