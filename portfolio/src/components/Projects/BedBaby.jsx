@@ -26,8 +26,9 @@ const BedBaby = () => {
       <FontAwesomeIcon icon={faPaintRoller} style={{ fontSize: "10em" }} />
       <div className="spacer-small" />
       <p>THIS PAGE IS A WORK IN PROGRESS. CHECK BACK SOON!</p>
-      <div className="spacer-large" />
+      <div className="spacer-medium" />
       {/*<img src={FreitagAds} alt="Freitag Print Ads" className="projects-img" />*/}
+      <div className="spacer-medium" />
       <Link to="/projects">
         <Button variant="dark">Back to Projects</Button>
       </Link>
