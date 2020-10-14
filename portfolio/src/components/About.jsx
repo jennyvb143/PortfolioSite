@@ -107,7 +107,7 @@ const About = () => {
         </Col>
       </Row>
       <div className="spacer-small" />
-      <h2>
+      <h2 className="font-weight-bold">
         <a
           href="/JenniferBaxter-Resume.pdf"
           target="_blank"

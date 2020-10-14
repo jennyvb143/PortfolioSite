@@ -9,16 +9,19 @@ export const AppGlobalStyles = styled.div`
   height: 100vh;
 
   & h1 {
-    font-family: "Poppins", sans-serif;
+    font-family: "lemonmilk", sans-serif;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.5em;
     padding-bottom: 0.5em;
     color: #f48b88;
+  }
+  & h1.home {
+    font-family: "Poppins", sans-serif;
   }
   & h2 {
     font-family: "Poppins", sans-serif;
     font-weight: 200;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #f48b88;
   }
   & h3 {
@@ -129,7 +132,7 @@ export const StyledNavigationLink = styled(Link)`
   text-decoration: none;
 
   && {
-    font-family: "Lemon/Milk";
+    font-family: "lemonmilk", sans-serif;
   }
 
   & a:link,

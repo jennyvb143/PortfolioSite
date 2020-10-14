@@ -7,7 +7,7 @@ const Home = () => {
     <>
       <StyledAvatarImage src={avatar} alt="Jennifer Baxter" />
       <div className="spacer-medium" />
-      <h1>
+      <h1 className="home">
         Hi. I'm Jenn Baxter. I'm a developer and designer. My favorite place to
         be is in front of my computer, creating and building beautiful, useful
         things.

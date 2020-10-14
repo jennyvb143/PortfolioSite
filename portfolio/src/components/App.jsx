@@ -31,7 +31,7 @@ const App = () => {
             <Col
               xs={12}
               md={9}
-              className="p-6 d-flex flex-column align-self-center"
+              className="p-4 d-flex flex-column align-self-center"
             >
               <Switch>
                 <Route exact path="/" component={Home} />

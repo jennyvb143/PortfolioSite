@@ -20,7 +20,7 @@ const Projects = () => {
       <div className="spacer-medium" />
       <div className="projects-grid">
         <Row>
-          <Col xl={4} lg={12}>
+          <Col lg={4} md={12}>
             <Figure className="projects-figure">
               <img src={ElsCard} alt="" />
               <FigureCaption>
@@ -40,7 +40,7 @@ const Projects = () => {
               <div className="overlay"></div>
             </Figure>
           </Col>
-          <Col xl={4} lg={12}>
+          <Col lg={4} md={12}>
             <Figure className="projects-figure">
               <img src={BedBabyCard} alt="" />
               <FigureCaption>
@@ -55,7 +55,7 @@ const Projects = () => {
               <div className="overlay"></div>
             </Figure>
           </Col>
-          <Col xl={4} lg={12}>
+          <Col lg={4} md={12}>
             <Figure className="projects-figure">
               <img src={FreitagCard} alt="" />
               <FigureCaption>
