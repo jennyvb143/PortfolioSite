@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9fa9ac51d80605ca149488ae1ccd0d4a",
+    "revision": "737a3935325974eaf68efd3ad7b7667a",
     "url": "/index.html"
   },
   {
-    "revision": "17c4159b1714d364138f",
-    "url": "/static/css/main.fed54ab1.chunk.css"
+    "revision": "acb20722b87439d4d1ea",
+    "url": "/static/css/main.9fee2f7e.chunk.css"
   },
   {
-    "revision": "c5058fe52d2fa5b0294a",
-    "url": "/static/js/2.4c1f2228.chunk.js"
+    "revision": "debe45a753a74ba6057e",
+    "url": "/static/js/2.e5a657e3.chunk.js"
   },
   {
     "revision": "42780b3dfc4008075422892f0026a2f6",
-    "url": "/static/js/2.4c1f2228.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.e5a657e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "17c4159b1714d364138f",
-    "url": "/static/js/main.d7f9dab4.chunk.js"
+    "revision": "acb20722b87439d4d1ea",
+    "url": "/static/js/main.c537d0e9.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -26,6 +26,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d3792a0348c987b0c16fda149e4cca8c",
     "url": "/static/media/bed-baby-card.d3792a03.png"
+  },
+  {
+    "revision": "99c15e1bada207e8b518d24017d5471b",
+    "url": "/static/media/bed-baby-main-1.99c15e1b.jpg"
+  },
+  {
+    "revision": "81ee643ce44832949a2a7bf76997532c",
+    "url": "/static/media/bed-baby-main-2.81ee643c.jpg"
+  },
+  {
+    "revision": "cd8f4ffff53138fd945e163d0fa067d9",
+    "url": "/static/media/bed-baby-main-3.cd8f4fff.jpg"
+  },
+  {
+    "revision": "fbe03c12c09747f8186895c830206bfe",
+    "url": "/static/media/bed-baby-main-4.fbe03c12.jpg"
+  },
+  {
+    "revision": "70ad44baeaa2e67771bfaa8993431914",
+    "url": "/static/media/bed-baby-main-6.70ad44ba.jpg"
   },
   {
     "revision": "7bb16d28f9d054d0ffa529b13d227171",

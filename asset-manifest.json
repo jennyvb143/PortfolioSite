@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.fed54ab1.chunk.css",
-    "main.js": "/static/js/main.d7f9dab4.chunk.js",
-    "main.js.map": "/static/js/main.d7f9dab4.chunk.js.map",
+    "main.css": "/static/css/main.9fee2f7e.chunk.css",
+    "main.js": "/static/js/main.c537d0e9.chunk.js",
+    "main.js.map": "/static/js/main.c537d0e9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.4c1f2228.chunk.js": "/static/js/2.4c1f2228.chunk.js",
-    "static/js/2.4c1f2228.chunk.js.map": "/static/js/2.4c1f2228.chunk.js.map",
+    "static/js/2.e5a657e3.chunk.js": "/static/js/2.e5a657e3.chunk.js",
+    "static/js/2.e5a657e3.chunk.js.map": "/static/js/2.e5a657e3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0aa4ad3d470e203c9497e71cb494204b.js": "/precache-manifest.0aa4ad3d470e203c9497e71cb494204b.js",
+    "precache-manifest.3a82600df319c0ad29457a59003b867d.js": "/precache-manifest.3a82600df319c0ad29457a59003b867d.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fed54ab1.chunk.css.map": "/static/css/main.fed54ab1.chunk.css.map",
-    "static/js/2.4c1f2228.chunk.js.LICENSE.txt": "/static/js/2.4c1f2228.chunk.js.LICENSE.txt",
+    "static/css/main.9fee2f7e.chunk.css.map": "/static/css/main.9fee2f7e.chunk.css.map",
+    "static/js/2.e5a657e3.chunk.js.LICENSE.txt": "/static/js/2.e5a657e3.chunk.js.LICENSE.txt",
     "static/media/bed-baby-card.png": "/static/media/bed-baby-card.d3792a03.png",
+    "static/media/bed-baby-main-1.jpg": "/static/media/bed-baby-main-1.99c15e1b.jpg",
+    "static/media/bed-baby-main-2.jpg": "/static/media/bed-baby-main-2.81ee643c.jpg",
+    "static/media/bed-baby-main-3.jpg": "/static/media/bed-baby-main-3.cd8f4fff.jpg",
+    "static/media/bed-baby-main-4.jpg": "/static/media/bed-baby-main-4.fbe03c12.jpg",
+    "static/media/bed-baby-main-6.jpg": "/static/media/bed-baby-main-6.70ad44ba.jpg",
     "static/media/els-card.png": "/static/media/els-card.7bb16d28.png",
     "static/media/freitag-ads.jpg": "/static/media/freitag-ads.7aae6053.jpg",
     "static/media/freitag-card.png": "/static/media/freitag-card.6f845723.png",
@@ -21,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.4c1f2228.chunk.js",
-    "static/css/main.fed54ab1.chunk.css",
-    "static/js/main.d7f9dab4.chunk.js"
+    "static/js/2.e5a657e3.chunk.js",
+    "static/css/main.9fee2f7e.chunk.css",
+    "static/js/main.c537d0e9.chunk.js"
   ]
 }
