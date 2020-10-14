@@ -2,6 +2,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import FigureCaption from "react-bootstrap/FigureCaption";
+import Pdf from "../files/JenniferBaxter-Resume.pdf";
 import { StyledFigure } from "./style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
@@ -20,14 +21,13 @@ const About = () => {
       <h1>More about me</h1>
       <p>
         In 1999, when HTML was still a relatively new technology, I took my
-        first class on how to build websites. I've been hooked ever since. When
-        I got my first taste of HTML all those years ago, I had no idea I'd
-        cultivate such a love for programming and the power of the internet. My
-        specialty is front-end development with basic knowledge of back-end
-        programming. I excel in UX/UI, web design, brand identity, and
-        ecommerce, but I enjoy all facets of design and I find that I am
-        constantly inspired by the design that exists all around us – the good,
-        the bad, and the ugly.
+        first class on how to build websites. When I got my first taste of HTML
+        all those years ago, I had no idea I'd cultivate such a love for
+        programming and the power of the internet. My specialty is front-end
+        development with basic knowledge of back-end programming. I excel in
+        UX/UI, web design, brand identity, and ecommerce, but I enjoy all facets
+        of design and I find that I am constantly inspired by the design that
+        exists all around us – the good, the bad, and the ugly.
       </p>
       <p>
         I've lived all across the country and beyond and I've found that when it
@@ -108,11 +108,7 @@ const About = () => {
       </Row>
       <div className="spacer-small" />
       <h2 className="font-weight-bold">
-        <a
-          href="/JenniferBaxter-Resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={Pdf} target="_blank" rel="noopener noreferrer">
           Download Resume (PDF) <FontAwesomeIcon icon={faFilePdf} size="1.5x" />
         </a>
       </h2>

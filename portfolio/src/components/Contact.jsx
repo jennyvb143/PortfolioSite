@@ -146,7 +146,7 @@ const Contact = () => {
         <Row>
           <Figure className="d-inline-flex text-center pr-1">
             <a
-              href="www.linkedin.com/in/jvbaxter"
+              href="https://linkedin.com/in/jvbaxter/"
               className="faIcon"
               target="_blank"
               rel="noopener noreferrer"

@@ -13,7 +13,7 @@ const Home = () => {
         things.
       </h1>
       <p className="bold">
-        My focus is front end web development, working primarily in HTML, CSS,
+        My focus is front-end web development, working primarily in HTML, CSS,
         Javascript, and Javascript frameworks. These days I'm really into React,
         which is what I used to build this responsive site. I love to learn and
         I love what I do. Take a look around to learn more about me or check out
