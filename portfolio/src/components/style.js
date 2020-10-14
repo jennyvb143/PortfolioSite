@@ -70,6 +70,9 @@ export const AppGlobalStyles = styled.div`
   & .faIcon {
     margin-right: 0.5em;
   }
+  & hr {
+    width: 90%;
+  }
 `;
 
 export const StyledContainer = styled(Container)`

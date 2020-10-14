@@ -20,7 +20,11 @@ const Freitag = () => {
         <Button variant="dark">Back to Projects</Button>
       </Link>
       <div className="spacer-medium" />
-      <img src={FreitagAds} alt="Freitag Print Ads" className="projects-img" />
+      <img
+        src={FreitagAds}
+        alt="Freitag Print Ads"
+        className="projects-img-freitag"
+      />
       <div className="spacer-medium" />
       <Link to="/projects">
         <Button variant="dark">Back to Projects</Button>
