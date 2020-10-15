@@ -60,7 +60,7 @@ const BedBaby = () => {
 
       <div className="spacer-small" />
       <hr />
-      <div className="spacer-large" />
+      <div className="spacer-medium" />
 
       <div className="pr-1 pl-1">
         <img
@@ -94,7 +94,7 @@ const BedBaby = () => {
 
       <div className="spacer-small" />
       <hr />
-      <div className="spacer-large" />
+      <div className="spacer-medium" />
 
       <div className="pr-1 pl-1">
         <img
@@ -127,7 +127,7 @@ const BedBaby = () => {
 
       <div className="spacer-small" />
       <hr />
-      <div className="spacer-small" />
+      <div className="spacer-medium" />
 
       <div className="pr-1 pl-1">
         <img
@@ -135,7 +135,7 @@ const BedBaby = () => {
           alt="Bed Bath & Beyond Work Sample"
           className="projects-img-bed-baby"
         />
-        <div className="spacer-extra-small" />
+        <div className="spacer-medium" />
         <Row className="justify-content-center">
           <Badge pill variant="dark">
             Development{" "}
@@ -152,7 +152,7 @@ const BedBaby = () => {
 
       <div className="spacer-small" />
       <hr />
-      <div className="spacer-small" />
+      <div className="spacer-medium" />
 
       {/*
       <div className="pr-1 pl-1">
@@ -175,8 +175,9 @@ const BedBaby = () => {
         </p>
       </div>
 
+      <div className="spacer-small" />
       <hr />
-      <div className="spacer-large" />
+      <div className="spacer-medium" />
       */}
 
       <div className="pr-1 pl-1">
@@ -185,7 +186,7 @@ const BedBaby = () => {
           alt="buybuy BABY Work Sample"
           className="projects-img-bed-baby"
         />
-        <div className="spacer-extra-small" />
+        <div className="spacer-medium" />
         <Row className="justify-content-center">
           <Badge pill variant="dark">
             Development{" "}
