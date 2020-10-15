@@ -133,9 +133,12 @@ export const StyledNavigationLink = styled(Link)`
   font-size: 1.5em;
   color: #000;
   text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
 
   && {
-    font-family: "lemonmilk", sans-serif;
+    font-family: "lemonmilk", "Poppins", sans-serif;
   }
 
   & a:link,

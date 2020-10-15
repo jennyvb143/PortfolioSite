@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Badge from "react-bootstrap/Badge";
 import Button from "react-bootstrap/Button";
@@ -31,7 +30,7 @@ const BedBaby = () => {
       </Link>
       <div className="spacer-large" />
       <div className="spacer-small" />
-      <Col className="d-flex flex-column align-self-center">
+      <div className="pr-1 pl-1">
         <img
           src={BedBaby1}
           alt="Bed Bath & Beyond Work Sample"
@@ -57,13 +56,13 @@ const BedBaby = () => {
           increase in Registries and Registry purchases. The redesign was
           eventually added to the permanent codebase.
         </p>
-      </Col>
+      </div>
 
       <div className="spacer-small" />
       <hr />
       <div className="spacer-large" />
 
-      <Col className="d-flex flex-column align-self-center">
+      <div className="pr-1 pl-1">
         <img
           src={BedBaby2}
           alt="Bed Bath & Beyond Work Sample"
@@ -91,13 +90,13 @@ const BedBaby = () => {
           wizard, walking the user through each step of the ordering process as
           they made their selections.
         </p>
-      </Col>
+      </div>
 
       <div className="spacer-small" />
       <hr />
       <div className="spacer-large" />
 
-      <Col className="d-flex flex-column align-self-center">
+      <div className="pr-1 pl-1">
         <img
           src={BedBaby3}
           alt="Bed Bath & Beyond Work Sample"
@@ -124,13 +123,13 @@ const BedBaby = () => {
           customers to simply hover over each Zone to read more about it and/or
           watch a video or shop that Zone.
         </p>
-      </Col>
+      </div>
 
       <div className="spacer-small" />
       <hr />
       <div className="spacer-small" />
 
-      <Col className="d-flex flex-column align-self-center">
+      <div className="pr-1 pl-1">
         <img
           src={BedBaby4}
           alt="Bed Bath & Beyond Work Sample"
@@ -149,14 +148,14 @@ const BedBaby = () => {
           test. It was a complex test that introduced entirely new programming
           technologies and page structure to the site.
         </p>
-      </Col>
+      </div>
 
       <div className="spacer-small" />
       <hr />
       <div className="spacer-small" />
 
       {/*
-      <Col className="d-flex flex-column align-self-center">
+      <div className="pr-1 pl-1">
         <img
           src={BedBaby5}
           alt="Bed Bath & Beyond Work Sample"
@@ -174,13 +173,13 @@ const BedBaby = () => {
           I developed this redesign of the Bed Bath homepage for an extended A/B
           test.
         </p>
-      </Col>
+      </div>
 
       <hr />
       <div className="spacer-large" />
       */}
 
-      <Col className="d-flex flex-column align-self-center">
+      <div className="pr-1 pl-1">
         <img
           src={BedBaby6}
           alt="buybuy BABY Work Sample"
@@ -198,7 +197,7 @@ const BedBaby = () => {
           I developed this responsive landing page for buybuy BABY to clarify
           the company's price match policy.
         </p>
-      </Col>
+      </div>
 
       <div className="spacer-medium" />
       <Link to="/projects">

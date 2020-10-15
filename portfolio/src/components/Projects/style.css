@@ -7,6 +7,8 @@
   position: relative;
   overflow: hidden;
   border-radius: 12px;
+  mask-image: -webkit-radial-gradient(white, black);
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 .projects-grid .projects-figure img {
