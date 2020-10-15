@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd8742a3df0fbf140cd4108bc433bb32",
+    "revision": "c80a24b8179daa3bcef2440adc5adafb",
     "url": "/index.html"
   },
   {
-    "revision": "b57de90bf2332015842e",
+    "revision": "160d7d487c09f1f8ad3b",
     "url": "/static/css/main.d001e81c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.dba02739.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b57de90bf2332015842e",
-    "url": "/static/js/main.99cd262c.chunk.js"
+    "revision": "160d7d487c09f1f8ad3b",
+    "url": "/static/js/main.2b80c240.chunk.js"
   },
   {
     "revision": "4f2b1704eab49d50853b",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/bed-baby-main-3.cd8f4fff.jpg"
   },
   {
-    "revision": "fbe03c12c09747f8186895c830206bfe",
-    "url": "/static/media/bed-baby-main-4.fbe03c12.jpg"
+    "revision": "6e83f948d5c33f85e175b2b730b054ba",
+    "url": "/static/media/bed-baby-main-4.6e83f948.jpg"
   },
   {
-    "revision": "70ad44baeaa2e67771bfaa8993431914",
-    "url": "/static/media/bed-baby-main-6.70ad44ba.jpg"
+    "revision": "f0947ccd5bcaf7e8261b6b69f70d60c2",
+    "url": "/static/media/bed-baby-main-6.f0947ccd.jpg"
   },
   {
     "revision": "7bb16d28f9d054d0ffa529b13d227171",
