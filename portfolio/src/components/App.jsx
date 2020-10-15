@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Header from "./Header";
 import Home from "./Home";
@@ -35,11 +35,11 @@ const App = () => {
             >
               <Switch>
                 <Route exact path="/" component={Home} />
-                <Route exact path="/about" component={About} />
-                <Route exact path="/projects" component={Projects} />
-                <Route exact path="/contact" component={Contact} />
-                <Route exact path="/bed-baby" component={BedBaby} />
-                <Route exact path="/freitag" component={Freitag} />
+                <Route path="/about" component={About} />
+                <Route path="/projects" component={Projects} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/bed-baby" component={BedBaby} />
+                <Route path="/freitag" component={Freitag} />
               </Switch>
             </Col>
           </StyledMainRow>
