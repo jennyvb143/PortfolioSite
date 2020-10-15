@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Switch } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import Header from "./Header";
 import Home from "./Home";
@@ -19,7 +19,7 @@ import {
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter basename="/">
       <AppGlobalStyles>
         <StyledContainer fluid>
           <StyledMainRow>
@@ -54,7 +54,7 @@ const App = () => {
           </StyledFooterRow>
         </StyledContainer>
       </AppGlobalStyles>
-    </Router>
+    </HashRouter>
   );
 };
 
