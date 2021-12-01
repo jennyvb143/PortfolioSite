@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d001e81c.chunk.css",
-    "main.js": "/static/js/main.2b80c240.chunk.js",
-    "main.js.map": "/static/js/main.2b80c240.chunk.js.map",
+    "main.js": "/static/js/main.22c3686d.chunk.js",
+    "main.js.map": "/static/js/main.22c3686d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
-    "static/js/2.dba02739.chunk.js": "/static/js/2.dba02739.chunk.js",
-    "static/js/2.dba02739.chunk.js.map": "/static/js/2.dba02739.chunk.js.map",
+    "static/js/2.b68a06d0.chunk.js": "/static/js/2.b68a06d0.chunk.js",
+    "static/js/2.b68a06d0.chunk.js.map": "/static/js/2.b68a06d0.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ac98e1c80a8b566342791beda8d54a30.js": "/precache-manifest.ac98e1c80a8b566342791beda8d54a30.js",
+    "precache-manifest.3153eb5474dd3b2e78b66d77a3a42b38.js": "/precache-manifest.3153eb5474dd3b2e78b66d77a3a42b38.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.d001e81c.chunk.css.map": "/static/css/main.d001e81c.chunk.css.map",
-    "static/js/2.dba02739.chunk.js.LICENSE.txt": "/static/js/2.dba02739.chunk.js.LICENSE.txt",
+    "static/js/2.b68a06d0.chunk.js.LICENSE.txt": "/static/js/2.b68a06d0.chunk.js.LICENSE.txt",
     "static/media/JenniferBaxter-Resume.pdf": "/static/media/JenniferBaxter-Resume.358e2a27.pdf",
     "static/media/bed-baby-card.png": "/static/media/bed-baby-card.d3792a03.png",
     "static/media/bed-baby-main-1.jpg": "/static/media/bed-baby-main-1.99c15e1b.jpg",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
-    "static/js/2.dba02739.chunk.js",
+    "static/js/2.b68a06d0.chunk.js",
     "static/css/main.d001e81c.chunk.css",
-    "static/js/main.2b80c240.chunk.js"
+    "static/js/main.22c3686d.chunk.js"
   ]
 }
