@@ -8,7 +8,7 @@ const Footer = () => {
     <>
       <div className="spacer-small" />
       <p className="bold justify-content-center">
-        Handcrafted by me <FontAwesomeIcon icon={faCopyright} /> 2020
+        Handcrafted by me <FontAwesomeIcon icon={faCopyright} /> 2021
       </p>
       <p className="medium justify-content-center">
         BUILT WITH <FontAwesomeIcon icon={faReact} spin />{" "}
