@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d001e81c.chunk.css",
+    "main.js": "/static/js/main.fdfca9c3.chunk.js",
+    "main.js.map": "/static/js/main.fdfca9c3.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.b68a06d0.chunk.js": "/static/js/2.b68a06d0.chunk.js",
+    "static/js/2.b68a06d0.chunk.js.map": "/static/js/2.b68a06d0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.565945190ff10256935e925eacde5490.js": "/precache-manifest.565945190ff10256935e925eacde5490.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.d001e81c.chunk.css.map": "/static/css/main.d001e81c.chunk.css.map",
+    "static/js/2.b68a06d0.chunk.js.LICENSE.txt": "/static/js/2.b68a06d0.chunk.js.LICENSE.txt",
+    "static/media/JenniferBaxter-Resume.pdf": "/static/media/JenniferBaxter-Resume.1e3c6484.pdf",
+    "static/media/bed-baby-card.png": "/static/media/bed-baby-card.d3792a03.png",
+    "static/media/bed-baby-main-1.jpg": "/static/media/bed-baby-main-1.99c15e1b.jpg",
+    "static/media/bed-baby-main-2.jpg": "/static/media/bed-baby-main-2.81ee643c.jpg",
+    "static/media/bed-baby-main-3.jpg": "/static/media/bed-baby-main-3.cd8f4fff.jpg",
+    "static/media/bed-baby-main-4.jpg": "/static/media/bed-baby-main-4.6e83f948.jpg",
+    "static/media/bed-baby-main-6.jpg": "/static/media/bed-baby-main-6.f0947ccd.jpg",
+    "static/media/els-card.png": "/static/media/els-card.7bb16d28.png",
+    "static/media/freitag-ads.jpg": "/static/media/freitag-ads.7aae6053.jpg",
+    "static/media/freitag-card.png": "/static/media/freitag-card.6f845723.png",
+    "static/media/jennifer-baxter-avatar.png": "/static/media/jennifer-baxter-avatar.adead9e1.png",
+    "static/media/jenniferbaxter-jvbaxter.com-logo.png": "/static/media/jenniferbaxter-jvbaxter.com-logo.511c6db4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.b68a06d0.chunk.js",
+    "static/css/main.d001e81c.chunk.css",
+    "static/js/main.fdfca9c3.chunk.js"
+  ]
+}
